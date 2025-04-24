@@ -1,3 +1,6 @@
 [build]
-command = "deno upgrade && deno task serve"
 publish = "."
+
+[[edge_functions]]
+function = "app"
+path = "/*"
